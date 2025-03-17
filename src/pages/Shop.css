@@ -1,0 +1,28 @@
+.shop{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.shop .head{
+    height: 300px;
+    background-color: #e5eeed;
+}
+.shop .head h1{
+    color: #055746;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px){
+    .shop{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .shop .head{
+        height: 600px;
+        background-color: #e5eeed;
+    }
+    .shop .head h1{
+        color: #055746;
+        font-size: 80px;
+        font-weight: bold;
+    }
+}

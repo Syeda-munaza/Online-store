@@ -1,0 +1,198 @@
+.featuredProducts{
+    margin-top: 80px;
+}
+.featuredProducts h1{
+    text-align: center;
+    color: #055746;
+    font-weight: bold;
+}
+.featuredProducts .card-cont{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.featuredProducts .card-cont img{
+    height: 300px;
+}
+.featuredProducts .card-cont h4{
+    margin-left: 20px;
+}
+.featuredProducts .card-cont .price{
+    color: #055746;
+    font-weight: bold;
+}
+.featuredProducts .card-cont h6{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.featuredProducts .card-cont h6 span{
+    font-weight: 400;
+}
+.featuredProducts .card-cont .btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.featuredProducts .card-cont .btn1{
+    background-color: #055746;
+    color: white;
+    border-radius: 10px;
+    text-decoration: wavy;
+    font-size: 18px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.featuredProducts .card-cont .btn1:hover{
+    background-color: transparent;
+    color: #055746;
+    border: 1px solid #055746;
+}
+.featuredProducts .card-cont .card-body .star-img{
+    height: 45px;
+    width: 85px;
+    margin-left:20px;
+    margin-top: -5px;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px){
+    .featuredProducts{
+        margin-top: 180px;
+    }
+    .featuredProducts h1{
+        font-size: 80px;
+        text-align: center;
+        color: #055746;
+        font-weight: bold;
+    }
+    .featuredProducts .card-cont{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-around;
+    }
+    .featuredProducts .card-cont .card{
+        width: 30rem !important;
+    }
+    .featuredProducts .card-cont img{
+        width: 30rem;
+        height: 500px;
+    }
+    .featuredProducts .card-cont h4{
+        margin-left: 20px;
+        font-size: 32px !important;
+    }
+    .featuredProducts .card-cont .price{
+        color: #055746;
+        font-weight: bold;
+    }
+    .featuredProducts .card-cont h6{
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+    .featuredProducts .card-cont h6 span{
+        font-weight: 400;
+    }
+    .featuredProducts .card-cont .btns{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        align-items: center;
+    }
+    .featuredProducts .card-cont .btn1{
+        background-color: #055746;
+        color: white;
+        border-radius: 10px;
+        text-decoration: wavy;
+        font-size:26px;
+        align-items: center;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .featuredProducts .card-cont .btn1:hover{
+        background-color: transparent;
+        color: #055746;
+        border: 1px solid #055746;
+    }
+    .featuredProducts .card-cont .card-body .star-img{
+        height: 65px;
+        width: 125px;
+        margin-left:20px;
+        margin-top: -5px;
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1900px){
+    .featuredProducts{
+        margin-top: 80px;
+    }
+    .featuredProducts h1{
+        text-align: center;
+        color: #055746;
+        font-weight: bold;
+    }
+    .featuredProducts .card-cont{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    .featuredProducts .card-cont img{
+        height: 300px;
+    }
+    .featuredProducts .card-cont h4{
+        margin-left: 20px;
+    }
+    .featuredProducts .card-cont .price{
+        color: #055746;
+        font-weight: bold;
+    }
+    .featuredProducts .card-cont h6{
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .featuredProducts .card-cont h6 span{
+        font-weight: 400;
+    }
+    .featuredProducts .card-cont .btns{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .featuredProducts .card-cont .btn1{
+        background-color: #055746;
+        color: white;
+        border-radius: 10px;
+        text-decoration: wavy;
+        font-size: 18px;
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .featuredProducts .card-cont .btn1:hover{
+        background-color: transparent;
+        color: #055746;
+        border: 1px solid #055746;
+    }
+    .featuredProducts .card-cont .card-body .star-img{
+        height: 45px;
+        width: 85px;
+        margin-left:20px;
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .featuredProducts .card-cont{
+        display: flex;
+        margin-top: 50px;
+        gap: 35px 0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

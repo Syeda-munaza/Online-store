@@ -1,0 +1,130 @@
+nav{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    top: 0;
+}
+.logo{
+    display: flex;
+    gap: 0px 8px;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+nav ul{
+    position: absolute;
+    right: 40px;
+}
+.badge{
+    margin-top: 8px;
+}
+.cat-down{
+    height: 300px;
+    width: 180px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.cat-down::-webkit-scrollbar{
+    width: 15px;
+}
+.cat-down::-webkit-scrollbar-track{
+    background-color: #e5eeed;
+    border-radius: 40px;
+}
+.cat-down::-webkit-scrollbar-thumb{
+    background-color: #055746;
+    border-radius: 40px;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px){
+    nav{
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        z-index: 99999;
+        top: 0;
+    }
+    .logo{
+        display: flex;
+        gap: 0px 25px;
+        justify-content: center;
+        align-items: center;
+        font-size: 52px;
+    }
+    .logo img{
+        height: 90px;
+        width: 90px;
+    }
+    nav ul{
+        position: absolute;
+        right: 40px;
+    }
+    nav ul li a{
+        font-size: 32px !important;
+    }
+    .badge{
+        margin-top: 8px;
+        font-size: larger;
+    }
+    .cat-down{
+        height: 300px;
+        width: 180px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    nav{
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        z-index: 99999;
+        top: 0;
+    }
+    .logo{
+        display: flex;
+        gap: 0px 8px;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        height: 50px;
+        width: 50px;
+    }
+    nav ul{
+        position: absolute;
+        right: 40px;
+    }
+    .badge{
+        margin-top: 8px;
+    }
+    .cat-down{
+        height: 300px;
+        width: 180px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    nav ul{
+        position: static;
+        left: 0;
+    }
+    .badge{
+        margin-top: 8px;
+        position: absolute !important;
+        left: 24px !important;
+    }
+    .cat-down{
+        height: 300px;
+        width: 180px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
